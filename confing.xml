@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con>
+	<MSSQL>
+		<url>localhost</url>
+		<database>SIDLI</database>
+		<table>HistorianData</table>
+		<username>sidli</username>
+		<password>sidli123</password>
+	</MSSQL>
+	<SourceCSVfields>
+		<variable>FACILITYID</variable>
+		<variable>Tag</variable>
+		<variable>Timestamp</variable>
+		<variable>Value</variable>
+	</SourceCSVfields>
+	<DestinationTableFields>
+		<field>FACILITYID</field>
+		<field>Tag</field>
+		<field>Timestamp</field>
+		<field>Value</field>
+	</DestinationTableFields>
+</con>
